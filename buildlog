@@ -1,0 +1,266 @@
+  CHK     include/config/kernel.release
+  CHK     include/generated/uapi/linux/version.h
+  CHK     include/generated/utsrelease.h
+make[1]: 'include/generated/mach-types.h' is up to date.
+  CHK     include/generated/timeconst.h
+  CHK     include/generated/bounds.h
+  CHK     include/generated/asm-offsets.h
+  CALL    scripts/checksyscalls.sh
+  CHK     include/generated/compile.h
+  CHK     kernel/config_data.h
+  CC      drivers/hid/hid-core.o
+  LD      drivers/hsi/clients/built-in.o
+  LD      drivers/hsi/controllers/built-in.o
+  LD      drivers/hsi/built-in.o
+  CC      drivers/hwmon/hwmon.o
+  CC      drivers/hwmon/gpio-fan.o
+  CC [M]  drivers/hwmon/hwmon-vid.o
+  LD      drivers/gpu/drm/drm_kms_helper.o
+  CC [M]  drivers/hwmon/w83627hf.o
+  LD      drivers/gpu/drm/drm.o
+  CC [M]  drivers/hwmon/w83792d.o
+  CC [M]  drivers/gpu/drm/tilcdc/tilcdc_drv.o
+  CC [M]  drivers/hwmon/w83793.o
+  CC [M]  drivers/hwmon/w83795.o
+  CC [M]  drivers/hwmon/w83781d.o
+  LD      drivers/gpu/drm/ttm/built-in.o
+  CC [M]  drivers/gpu/drm/ttm/ttm_agp_backend.o
+  CC      drivers/hid/hid-input.o
+  CC      drivers/hid/hid-debug.o
+  CC [M]  drivers/gpu/drm/ttm/ttm_memory.o
+  CC [M]  drivers/hwmon/w83791d.o
+  CC [M]  drivers/hwmon/ad7314.o
+  CC [M]  drivers/hwmon/ad7414.o
+  CC      drivers/hid/hidraw.o
+  CC [M]  drivers/gpu/drm/ttm/ttm_tt.o
+  CC [M]  drivers/gpu/drm/ttm/ttm_bo.o
+  CC      drivers/hid/uhid.o
+  CC [M]  drivers/hwmon/ad7418.o
+  CC [M]  drivers/hwmon/adc128d818.o
+  CC [M]  drivers/hwmon/adcxx.o
+  CC      drivers/hid/hid-generic.o
+  CC      drivers/hid/hid-lg.o
+  CC [M]  drivers/gpu/drm/ttm/ttm_bo_util.o
+  CC      drivers/hid/hid-lgff.o
+  CC [M]  drivers/hwmon/adm1021.o
+  CC [M]  drivers/hwmon/adm1025.o
+  CC      drivers/hid/hid-lg2ff.o
+  CC      drivers/hid/hid-lg3ff.o
+  CC      drivers/hid/hid-lg4ff.o
+  CC      drivers/hid/hid-logitech-dj.o
+  CC [M]  drivers/hwmon/adm1026.o
+  CC [M]  drivers/gpu/drm/ttm/ttm_bo_vm.o
+  CC      drivers/hid/hid-logitech-hidpp.o
+  CC      drivers/hid/usbhid/hid-core.o
+  CC [M]  drivers/gpu/drm/ttm/ttm_module.o
+  CC [M]  drivers/gpu/drm/ttm/ttm_object.o
+  CC [M]  drivers/hid/hid-a4tech.o
+  CC [M]  drivers/hid/hid-axff.o
+  CC [M]  drivers/gpu/drm/ttm/ttm_lock.o
+  CC [M]  drivers/hid/hid-apple.o
+  CC [M]  drivers/hid/hid-appleir.o
+  CC [M]  drivers/hid/hid-aureal.o
+  CC [M]  drivers/hwmon/adm1029.o
+  CC [M]  drivers/hid/hid-belkin.o
+  CC      drivers/hid/usbhid/hid-quirks.o
+  CC [M]  drivers/hwmon/adm1031.o
+  CC [M]  drivers/hid/hid-betopff.o
+  CC      drivers/hid/usbhid/hiddev.o
+  CC [M]  drivers/gpu/drm/ttm/ttm_execbuf_util.o
+  CC [M]  drivers/hwmon/adm9240.o
+  CC [M]  drivers/hid/hid-cherry.o
+  CC [M]  drivers/hid/hid-chicony.o
+  CC      drivers/hid/usbhid/hid-pidff.o
+  CC [M]  drivers/hid/hid-corsair.o
+  CC [M]  drivers/hwmon/ads1015.o
+  CC [M]  drivers/hid/hid-cp2112.o
+  CC [M]  drivers/gpu/drm/ttm/ttm_page_alloc.o
+  CC [M]  drivers/hwmon/ads7828.o
+  CC [M]  drivers/gpu/drm/ttm/ttm_bo_manager.o
+  CC [M]  drivers/gpu/drm/ttm/ttm_page_alloc_dma.o
+  CC [M]  drivers/hwmon/ads7871.o
+  CC [M]  drivers/hid/hid-cypress.o
+  LD      drivers/hid/usbhid/usbhid.o
+  LD      drivers/hid/usbhid/built-in.o
+  CC [M]  drivers/hid/hid-dr.o
+  CC [M]  drivers/hid/hid-emsff.o
+  CC [M]  drivers/hwmon/adt7x10.o
+  CC [M]  drivers/hid/hid-elecom.o
+  CC [M]  drivers/hid/hid-elo.o
+  CC [M]  drivers/hid/hid-ezkey.o
+  CC [M]  drivers/hid/hid-gembird.o
+  CC [M]  drivers/hid/hid-gfrm.o
+  CC [M]  drivers/hid/hid-gt683r.o
+  CC [M]  drivers/hid/hid-gyration.o
+  CC [M]  drivers/hid/hid-holtek-kbd.o
+  CC [M]  drivers/hid/hid-holtek-mouse.o
+  CC [M]  drivers/hwmon/adt7310.o
+  LD [M]  drivers/gpu/drm/ttm/ttm.o
+  CC [M]  drivers/hwmon/adt7410.o
+  CC [M]  drivers/hwmon/adt7411.o
+  CC [M]  drivers/hwmon/adt7462.o
+  CC [M]  drivers/hid/hid-holtekff.o
+  CC [M]  drivers/hid/hid-icade.o
+  CC [M]  drivers/hid/hid-kensington.o
+  CC [M]  drivers/hid/hid-keytouch.o
+  CC [M]  drivers/hwmon/adt7470.o
+  CC [M]  drivers/hwmon/adt7475.o
+  CC [M]  drivers/hid/hid-kye.o
+  CC [M]  drivers/hid/hid-lcpower.o
+  CC [M]  drivers/hwmon/asc7621.o
+  CC [M]  drivers/hid/hid-lenovo.o
+  CC [M]  drivers/hid/hid-magicmouse.o
+  CC [M]  drivers/hwmon/atxp1.o
+  CC [M]  drivers/hid/hid-microsoft.o
+  CC [M]  drivers/hwmon/dme1737.o
+  CC [M]  drivers/hid/hid-monterey.o
+  CC [M]  drivers/hid/hid-multitouch.o
+  CC [M]  drivers/hwmon/ds620.o
+  CC [M]  drivers/hwmon/ds1621.o
+  CC [M]  drivers/hid/hid-ntrig.o
+  CC [M]  drivers/hwmon/emc1403.o
+  CC [M]  drivers/hwmon/emc2103.o
+  CC [M]  drivers/hid/hid-ortek.o
+  CC [M]  drivers/hwmon/emc6w201.o
+  CC [M]  drivers/hwmon/f71805f.o
+  CC [M]  drivers/hid/hid-prodikeys.o
+  CC [M]  drivers/hwmon/f71882fg.o
+  CC [M]  drivers/hid/hid-pl.o
+  CC [M]  drivers/hid/hid-penmount.o
+  CC [M]  drivers/hid/hid-petalynx.o
+  CC [M]  drivers/hwmon/f75375s.o
+  CC [M]  drivers/hid/hid-picolcd_core.o
+  CC [M]  drivers/hwmon/g760a.o
+  CC [M]  drivers/hid/hid-picolcd_fb.o
+  CC [M]  drivers/hwmon/g762.o
+  CC [M]  drivers/hid/hid-picolcd_backlight.o
+  CC [M]  drivers/hwmon/gl518sm.o
+  CC [M]  drivers/hwmon/gl520sm.o
+  CC [M]  drivers/hwmon/hih6130.o
+  CC [M]  drivers/hid/hid-picolcd_leds.o
+  CC [M]  drivers/hid/hid-picolcd_cir.o
+  CC [M]  drivers/hid/hid-picolcd_debugfs.o
+  CC [M]  drivers/hwmon/htu21.o
+  CC [M]  drivers/hwmon/iio_hwmon.o
+  CC [M]  drivers/hwmon/ina209.o
+  CC [M]  drivers/hwmon/ina2xx.o
+  CC [M]  drivers/hwmon/it87.o
+  CC [M]  drivers/hwmon/jc42.o
+  CC [M]  drivers/hid/hid-plantronics.o
+  CC [M]  drivers/hid/hid-primax.o
+  CC [M]  drivers/hwmon/lineage-pem.o
+  CC [M]  drivers/hwmon/lm63.o
+  CC [M]  drivers/hid/hid-roccat.o
+  CC [M]  drivers/hid/hid-roccat-common.o
+  CC [M]  drivers/hwmon/lm70.o
+  CC [M]  drivers/hwmon/lm73.o
+  CC [M]  drivers/hwmon/lm75.o
+  CC [M]  drivers/hwmon/lm77.o
+  CC [M]  drivers/hwmon/lm78.o
+  CC [M]  drivers/hwmon/lm80.o
+  CC [M]  drivers/hwmon/lm83.o
+  CC [M]  drivers/hid/hid-roccat-arvo.o
+  CC [M]  drivers/hid/hid-roccat-isku.o
+  CC [M]  drivers/hwmon/lm85.o
+  CC [M]  drivers/hwmon/lm87.o
+  CC [M]  drivers/hwmon/lm90.o
+  CC [M]  drivers/hwmon/lm92.o
+  CC [M]  drivers/hwmon/lm93.o
+  CC [M]  drivers/hid/hid-roccat-kone.o
+  CC [M]  drivers/hwmon/lm95234.o
+  CC [M]  drivers/hid/hid-roccat-koneplus.o
+  CC [M]  drivers/hwmon/lm95241.o
+  CC [M]  drivers/hwmon/lm95245.o
+  CC [M]  drivers/hwmon/ltc2945.o
+  CC [M]  drivers/hwmon/ltc4151.o
+  CC [M]  drivers/hid/hid-roccat-konepure.o
+  CC [M]  drivers/hid/hid-roccat-kovaplus.o
+  CC [M]  drivers/hwmon/ltc4215.o
+  CC [M]  drivers/hwmon/ltc4222.o
+  CC [M]  drivers/hwmon/ltc4245.o
+  CC [M]  drivers/hwmon/ltc4260.o
+  CC [M]  drivers/hwmon/ltc4261.o
+  CC [M]  drivers/hwmon/max1111.o
+  CC [M]  drivers/hid/hid-roccat-lua.o
+  CC [M]  drivers/hwmon/max16065.o
+  CC [M]  drivers/hwmon/max1619.o
+  CC [M]  drivers/hid/hid-roccat-pyra.o
+  CC [M]  drivers/hwmon/max1668.o
+  CC [M]  drivers/hwmon/max197.o
+  CC [M]  drivers/hwmon/max6639.o
+  CC [M]  drivers/hwmon/max6642.o
+  CC [M]  drivers/hid/hid-roccat-ryos.o
+  CC [M]  drivers/hid/hid-roccat-savu.o
+  CC [M]  drivers/hwmon/max6650.o
+  CC [M]  drivers/hwmon/max6697.o
+  CC [M]  drivers/hwmon/max31790.o
+  CC [M]  drivers/hid/hid-rmi.o
+  CC [M]  drivers/hwmon/mcp3021.o
+  CC [M]  drivers/hwmon/nct6683.o
+  CC [M]  drivers/hid/hid-saitek.o
+  CC [M]  drivers/hid/hid-samsung.o
+  CC [M]  drivers/hwmon/nct6775.o
+  CC [M]  drivers/hwmon/nct7802.o
+  CC [M]  drivers/hwmon/nct7904.o
+  CC [M]  drivers/hwmon/ntc_thermistor.o
+  CC [M]  drivers/hid/hid-sjoy.o
+  CC [M]  drivers/hid/hid-sony.o
+  CC [M]  drivers/hid/hid-speedlink.o
+  CC [M]  drivers/hwmon/pc87360.o
+  CC [M]  drivers/hwmon/pc87427.o
+  CC [M]  drivers/hid/hid-steelseries.o
+  CC [M]  drivers/hwmon/pcf8591.o
+  CC [M]  drivers/hwmon/powr1220.o
+  CC [M]  drivers/hwmon/pwm-fan.o
+  CC [M]  drivers/hid/hid-sunplus.o
+  CC [M]  drivers/hwmon/sch56xx-common.o
+  CC [M]  drivers/hwmon/sch5627.o
+  CC [M]  drivers/hid/hid-gaff.o
+  CC [M]  drivers/hwmon/sch5636.o
+  CC [M]  drivers/hwmon/sht15.o
+  CC [M]  drivers/hid/hid-thingm.o
+  CC [M]  drivers/hwmon/sht21.o
+  CC [M]  drivers/hid/hid-tmff.o
+  CC [M]  drivers/hwmon/shtc1.o
+  CC [M]  drivers/hwmon/smm665.o
+  CC [M]  drivers/hwmon/smsc47b397.o
+  CC [M]  drivers/hid/hid-tivo.o
+  CC [M]  drivers/hwmon/smsc47m1.o
+  CHK     include/config/kernel.release
+  CHK     include/generated/uapi/linux/version.h
+  CHK     include/generated/utsrelease.h
+make[1]: 'include/generated/mach-types.h' is up to date.
+  CHK     include/generated/timeconst.h
+  CHK     include/generated/bounds.h
+  CHK     include/generated/asm-offsets.h
+  CALL    scripts/checksyscalls.sh
+  CHK     include/generated/compile.h
+  CHK     kernel/config_data.h
+  LD      drivers/hid/hid.o
+  LD      drivers/hid/hid-logitech.o
+  CC      drivers/hwspinlock/hwspinlock_core.o
+  CC      drivers/hwspinlock/omap_hwspinlock.o
+  LD      drivers/hwmon/built-in.o
+  LD [M]  drivers/hid/hid-picolcd.o
+  CC [M]  drivers/hid/hid-tmff.o
+  CC [M]  drivers/hid/hid-tivo.o
+  CC [M]  drivers/gpu/drm/tilcdc/tilcdc_drv.o
+  CC [M]  drivers/hwmon/nct6775.o
+  LD      drivers/hwtracing/intel_th/built-in.o
+  CC [M]  drivers/hid/hid-topseed.o
+  LD      drivers/gpu/drm/udl/built-in.o
+  CC [M]  drivers/gpu/drm/udl/udl_drv.o
+  LD      drivers/hwspinlock/built-in.o
+  CC [M]  drivers/hid/hid-twinhan.o
+  CC      drivers/i2c/i2c-boardinfo.o
+  CC      drivers/i2c/i2c-core.o
+  CC [M]  drivers/hid/hid-uclogic.o
+  CC [M]  drivers/gpu/drm/udl/udl_modeset.o
+  CC      drivers/i2c/i2c-dev.o
+  CC      drivers/i2c/i2c-mux.o
+  CC [M]  drivers/hid/hid-xinmo.o
+  CC [M]  drivers/hid/hid-zpff.o
+  CC [M]  drivers/gpu/drm/udl/udl_connector.o
+  CC [M]  drivers/gpu/drm/udl/udl_encoder.o
+  CC [M]  drivers/hid/hid-zydacron.o
+  CC      drivers/i2c/algos/i2c-algo-bit.o
